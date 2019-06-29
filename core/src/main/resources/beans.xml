@@ -6,4 +6,8 @@
 
     <bean id="numberGenerator" class="igor.learnprogramming.NumberGeneratorImpl"/>
 
+    <bean id="game" class="igor.learnprogramming.GameImpl">
+        <constructor-arg ref="numberGenerator"/>
+    </bean>
+
 </beans>

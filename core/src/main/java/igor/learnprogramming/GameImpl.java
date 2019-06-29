@@ -18,6 +18,11 @@ public class GameImpl implements IGame {
     private int remainingGuesses;
     private boolean validNumberRange = true;
 
+    // == constructors ==
+    public GameImpl(INumberGenerator numberGenerator) {
+        this.numberGenerator = numberGenerator;
+    }
+
     // == public methods ==
     @Override
     public void reset() {
