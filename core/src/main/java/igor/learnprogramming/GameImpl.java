@@ -3,6 +3,9 @@ package igor.learnprogramming;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
 public class GameImpl implements IGame {
 
     // == constants ==
@@ -33,7 +36,8 @@ public class GameImpl implements IGame {
         this.numberGenerator = numberGenerator;
     }
 
-    // == public methods ==
+    // == init ==
+    @PostConstruct
     @Override
     public void reset() {
         smallest = 0;
@@ -44,6 +48,13 @@ public class GameImpl implements IGame {
         log.debug("the number is {}", number);
     }
 
+    @PreDestroy
+    public void preDestroy() {
+        System.out.println("in Game preDestroy()");
+    }
+
+
+    // == public methods ==
     @Override
     public int getNumber() {
         return number;

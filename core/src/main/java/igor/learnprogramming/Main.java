@@ -32,8 +32,8 @@ public class Main {
         IGame game
                 = context.getBean(IGame.class);
 
-        // call reset method
-        game.reset();
+         // call reset method
+//        game.reset();
 
         // close context (container)
         context.close();
