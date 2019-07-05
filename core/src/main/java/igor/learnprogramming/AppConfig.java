@@ -18,4 +18,10 @@ public class AppConfig {
     public IGame game() {
         return new GameImpl();
     }
+
+    @Bean
+    public IMessageGenerator messageGenerator() {
+        return new MessageGeneratorImpl();
+    }
+
 }

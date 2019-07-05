@@ -30,10 +30,6 @@ public class GameImpl implements IGame {
     public GameImpl() {
     }
 
-//    public GameImpl(INumberGenerator numberGenerator) {
-//        this.numberGenerator = numberGenerator;
-//    }
-
     // == setters / getters ==
 
 
