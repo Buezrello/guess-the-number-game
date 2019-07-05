@@ -2,6 +2,10 @@ package igor.learnprogramming;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 
 public class GameImpl implements IGame {
 
@@ -9,6 +13,7 @@ public class GameImpl implements IGame {
     private static final Logger log = LoggerFactory.getLogger(GameImpl.class);
 
     // == fields ==
+    @Autowired
     private INumberGenerator numberGenerator;
     private int guessCount = 10;
     private int number;
@@ -29,11 +34,10 @@ public class GameImpl implements IGame {
 //    }
 
     // == setters / getters ==
-    public void setNumberGenerator(INumberGenerator numberGenerator) {
-        this.numberGenerator = numberGenerator;
-    }
 
-    // == public methods ==
+
+    // == init ==
+    @PostConstruct
     @Override
     public void reset() {
         smallest = 0;
@@ -44,6 +48,13 @@ public class GameImpl implements IGame {
         log.debug("the number is {}", number);
     }
 
+    @PreDestroy
+    public void preDestroy() {
+        System.out.println("in Game preDestroy()");
+    }
+
+
+    // == public methods ==
     @Override
     public int getNumber() {
         return number;
