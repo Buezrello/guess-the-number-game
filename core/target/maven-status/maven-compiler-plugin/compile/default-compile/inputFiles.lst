@@ -1,5 +1,7 @@
-/Users/igindin/JavaLearning/Spring5Learning/guess-the-number-game/core/src/main/java/igor/learnprogramming/Main.java
-/Users/igindin/JavaLearning/Spring5Learning/guess-the-number-game/core/src/main/java/igor/learnprogramming/IGame.java
-/Users/igindin/JavaLearning/Spring5Learning/guess-the-number-game/core/src/main/java/igor/learnprogramming/GameImpl.java
-/Users/igindin/JavaLearning/Spring5Learning/guess-the-number-game/core/src/main/java/igor/learnprogramming/NumberGeneratorImpl.java
-/Users/igindin/JavaLearning/Spring5Learning/guess-the-number-game/core/src/main/java/igor/learnprogramming/INumberGenerator.java
+F:\JetBrains\IdeaProjects\spring-5-projects\guess-the-number-game\core\src\main\java\igor\learnprogramming\IMessageGenerator.java
+F:\JetBrains\IdeaProjects\spring-5-projects\guess-the-number-game\core\src\main\java\igor\learnprogramming\IGame.java
+F:\JetBrains\IdeaProjects\spring-5-projects\guess-the-number-game\core\src\main\java\igor\learnprogramming\NumberGeneratorImpl.java
+F:\JetBrains\IdeaProjects\spring-5-projects\guess-the-number-game\core\src\main\java\igor\learnprogramming\AppConfig.java
+F:\JetBrains\IdeaProjects\spring-5-projects\guess-the-number-game\core\src\main\java\igor\learnprogramming\GameImpl.java
+F:\JetBrains\IdeaProjects\spring-5-projects\guess-the-number-game\core\src\main\java\igor\learnprogramming\INumberGenerator.java
+F:\JetBrains\IdeaProjects\spring-5-projects\guess-the-number-game\core\src\main\java\igor\learnprogramming\MessageGeneratorImpl.java

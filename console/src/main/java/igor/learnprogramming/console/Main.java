@@ -1,5 +1,9 @@
-package igor.learnprogramming;
+package igor.learnprogramming.console;
 
+import igor.learnprogramming.AppConfig;
+import igor.learnprogramming.IGame;
+import igor.learnprogramming.IMessageGenerator;
+import igor.learnprogramming.INumberGenerator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ConfigurableApplicationContext;
