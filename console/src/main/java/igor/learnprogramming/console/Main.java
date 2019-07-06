@@ -1,6 +1,6 @@
 package igor.learnprogramming.console;
 
-import igor.learnprogramming.AppConfig;
+import igor.learnprogramming.config.AppConfig;
 import igor.learnprogramming.IGame;
 import igor.learnprogramming.IMessageGenerator;
 import igor.learnprogramming.INumberGenerator;

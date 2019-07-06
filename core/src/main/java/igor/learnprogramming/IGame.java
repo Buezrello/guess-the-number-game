@@ -14,6 +14,8 @@ public interface IGame {
 
     int getRemainingGuesses();
 
+    int getGuessCount();
+
     void reset();
 
     void check();

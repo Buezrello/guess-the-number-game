@@ -3,7 +3,6 @@ package igor.learnprogramming;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
@@ -16,7 +15,11 @@ public class GameImpl implements IGame {
     // == fields ==
     @Autowired
     private INumberGenerator numberGenerator;
-    private int guessCount = 10;
+
+    @Autowired
+    @GuessCount
+    private int guessCount;
+
     private int number;
     private int guess;
     private int smallest;
@@ -42,6 +45,7 @@ public class GameImpl implements IGame {
         remainingGuesses = guessCount;
         biggest = numberGenerator.getMaxNumber();
         number = numberGenerator.next();
+        validNumberRange = true;
         log.debug("the number is {}", number);
     }
 
@@ -80,6 +84,11 @@ public class GameImpl implements IGame {
     @Override
     public int getRemainingGuesses() {
         return remainingGuesses;
+    }
+
+    @Override
+    public int getGuessCount() {
+        return guessCount;
     }
 
 
