@@ -2,6 +2,7 @@ package igor.learnprogramming.config;
 
 import igor.learnprogramming.GuessCount;
 import igor.learnprogramming.MaxNumber;
+import igor.learnprogramming.MinNumber;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -18,6 +19,9 @@ public class GameConfig {
     @Value("${game.guessCount:5}")
     private int guessCount;
 
+    @Value("${game.minNumber}")
+    private int minNumber;
+
     // == bean methods ==
     @Bean
     @MaxNumber
@@ -29,5 +33,11 @@ public class GameConfig {
     @GuessCount
     public int guessCount() {
         return guessCount;
+    }
+
+    @Bean
+    @MinNumber
+    public int minNumber() {
+        return minNumber;
     }
 }

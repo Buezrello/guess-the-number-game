@@ -6,4 +6,6 @@ public interface INumberGenerator {
 
     int getMaxNumber();
 
+    int getMinNumber();
+
 }
