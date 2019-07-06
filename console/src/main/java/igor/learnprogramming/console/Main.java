@@ -1,9 +1,6 @@
 package igor.learnprogramming.console;
 
-import igor.learnprogramming.config.AppConfig;
-import igor.learnprogramming.IGame;
-import igor.learnprogramming.IMessageGenerator;
-import igor.learnprogramming.INumberGenerator;
+import igor.learnprogramming.config.GameConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -18,29 +15,7 @@ public class Main {
 
         // create context (container)
         ConfigurableApplicationContext context
-                = new AnnotationConfigApplicationContext(AppConfig.class);
-
-        // get number generator from context (container)
-        INumberGenerator numberGenerator
-                = context.getBean(INumberGenerator.class);
-
-        // call method next() to get random number
-        int number = numberGenerator.next();
-
-        // log generated number
-        log.info("number {}", number);
-
-        // get game bean from context (container)
-        IGame game
-                = context.getBean(IGame.class);
-
-        // get message generator from context (container)
-        IMessageGenerator messageGenerator
-                = context.getBean(IMessageGenerator.class);
-
-        // call message generator methods
-        System.out.println(messageGenerator.getMainMessage());
-        System.out.println(messageGenerator.getResultMessage());
+                = new AnnotationConfigApplicationContext(GameConfig.class);
 
         // close context (container)
         context.close();

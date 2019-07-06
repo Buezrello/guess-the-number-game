@@ -1,22 +1,23 @@
 package igor.learnprogramming;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
-import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
+@Component
 public class NumberGeneratorImpl implements INumberGenerator {
 
     // == fields ==
-    private final Random random = new Random();
+    private final int maxNumber;
+    private final int minNumber;
 
+    // == constructors ==
     @Autowired
-    @MaxNumber
-    private int maxNumber;
-
-    @Autowired
-    @MinNumber
-    private int minNumber;
+    public NumberGeneratorImpl(@MaxNumber int maxNumber, @MinNumber int minNumber) {
+        this.maxNumber = maxNumber;
+        this.minNumber = minNumber;
+    }
 
     @Override
     public int next() {
