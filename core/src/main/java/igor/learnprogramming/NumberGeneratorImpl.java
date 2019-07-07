@@ -1,10 +1,12 @@
 package igor.learnprogramming;
 
+import lombok.Getter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.concurrent.ThreadLocalRandom;
 
+@Getter
 @Component
 public class NumberGeneratorImpl implements INumberGenerator {
 
@@ -22,15 +24,5 @@ public class NumberGeneratorImpl implements INumberGenerator {
     @Override
     public int next() {
         return ThreadLocalRandom.current().nextInt(minNumber, maxNumber + 1);
-    }
-
-    @Override
-    public int getMaxNumber() {
-        return maxNumber;
-    }
-
-    @Override
-    public int getMinNumber() {
-        return minNumber;
     }
 }
