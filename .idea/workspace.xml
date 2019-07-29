@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c86532df-de44-4940-8f0e-459f5c146a20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/igor/learnprogramming/controller/GameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/igor/learnprogramming/util/AttributeNames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/igor/learnprogramming/util/GameMappings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/templates/play.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/igor/learnprogramming/util/ViewNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/igor/learnprogramming/util/ViewNames.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/play.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/play.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -325,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564258116196</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Play Thymeleaf template">
+      <created>1564345954219</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1564345954219</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -362,7 +365,8 @@
     <MESSAGE value="setup Thymeleaf and initial template" />
     <MESSAGE value="Spring Boot developer tools" />
     <MESSAGE value="Game Service challenge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Game Service challenge" />
+    <MESSAGE value="Play Thymeleaf template" />
+    <option name="LAST_COMMIT_MESSAGE" value="Play Thymeleaf template" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
