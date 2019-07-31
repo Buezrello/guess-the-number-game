@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c86532df-de44-4940-8f0e-459f5c146a20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/templates/fragments/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/templates/fragments/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/game-over.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/game-over.html" afterDir="false" />
@@ -345,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564436009795</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Thymeleaf  fragments">
+      <created>1564601855173</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1564601855173</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,7 +392,8 @@
     <MESSAGE value="Play Thymeleaf template" />
     <MESSAGE value="Thymeleaf  preprocessing" />
     <MESSAGE value="Thymeleaf  template challenge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thymeleaf  template challenge" />
+    <MESSAGE value="Thymeleaf  fragments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thymeleaf  fragments" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
