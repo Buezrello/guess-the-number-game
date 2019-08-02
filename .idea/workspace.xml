@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c86532df-de44-4940-8f0e-459f5c146a20" name="Default Changelist" comment="Thymeleaf fragment challenge">
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/messages.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/messages_es.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/messages_iw.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="c86532df-de44-4940-8f0e-459f5c146a20" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/messages_es.properties" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/messages_es.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/messages_iw.properties" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/messages_iw.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/fragments/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/fragments/footer.th.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/fragments/footer.th.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/fragments/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/fragments/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/fragments/head.th.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/fragments/head.th.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/play.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/play.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/play.th.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/play.th.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/game-over.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/game-over.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/game-over.th.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/game-over.th.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/home.th.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/home.th.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -369,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564602995657</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Spring internationalization">
+      <created>1564760184086</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1564760184086</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -386,7 +387,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="constructor base dependency injection" />
     <MESSAGE value="setter injections" />
     <MESSAGE value="workspace" />
     <MESSAGE value="beans as components" />
@@ -411,7 +411,8 @@
     <MESSAGE value="Thymeleaf  fragments" />
     <MESSAGE value="Thymeleaf  fragment challenge" />
     <MESSAGE value="Thymeleaf fragment challenge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thymeleaf fragment challenge" />
+    <MESSAGE value="Spring internationalization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring internationalization" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
