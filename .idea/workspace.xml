@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c86532df-de44-4940-8f0e-459f5c146a20" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/igor/learnprogramming/interceptor/RequestInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/igor/learnprogramming/MessageGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/igor/learnprogramming/MessageGeneratorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/messages_es.properties" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/messages_es.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/messages_iw.properties" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/messages_iw.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/igor/learnprogramming/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/igor/learnprogramming/config/WebConfig.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +24,8 @@
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -373,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564763247354</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Message generator internationalization">
+      <created>1564776648901</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1564776648901</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -390,7 +396,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="workspace" />
     <MESSAGE value="beans as components" />
     <MESSAGE value="using Java annotation configuration" />
     <MESSAGE value="Message Generator challenge" />
@@ -415,7 +420,8 @@
     <MESSAGE value="Thymeleaf fragment challenge" />
     <MESSAGE value="Spring internationalization" />
     <MESSAGE value="Thymeleaf internationalization challenge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thymeleaf internationalization challenge" />
+    <MESSAGE value="Message generator internationalization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Message generator internationalization" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
