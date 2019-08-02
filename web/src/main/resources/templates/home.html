@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head th:replace="~{fragments/head :: headFragment}">
+<html lang="en">
+<head id="headId">
     <meta charset="UTF-8">
     <title>Title content</title>
 </head>
@@ -8,13 +8,12 @@
     <div align="center">
         <h1>Welcome to Guess the Number Game</h1>
         <h3>
-            <a th:href="@{__${T(igor.learnprogramming.util.GameMappings).PLAY}__}"
-               th:text="Play"
+            <a id="playLink"
                 href="play.html">
                 Click to play</a>
         </h3>
 
-        <div th:replace="~{fragments/footer :: footFragment}">footer for home</div>
+        <div id="footerId">footer for home</div>
 
     </div>
 </body>
